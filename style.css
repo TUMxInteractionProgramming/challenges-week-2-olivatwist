@@ -1,0 +1,66 @@
+/*Global*/
+* {
+    /* #2 #font #faces */
+    font-family: 'Arial', sans-serif;margin:0px;padding:0px;}
+
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+    /* #2 #font capital #letters */
+    text-transform: uppercase;
+}
+h3 strong, h1 strong {text-transform:uppercase}
+/*App bar*/
+/*Channels list*/
+h2 {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+}
+.highlighted-channel {color:#3F51B5;border-left-color: #3F51B5 !important; border-left:4px !important; }
+li { padding: 16px; height: 16px; box-sizing: content-box; border:1px; border-color: gray}
+li img {vertical-align: middle;}
+/*Tab bar*/
+#tab-bar { text-align: center; }
+#tab-bar button { background-color:white; height: 72px; width:33%; padding:16px;border: none; font-size: 13px; text-align: center}
+#tab-bar img { position: relative; margin-left: auto; margin-right: auto; margin-bottom: 4px;margin-top: 0px;}
+#tab-bar .button-highlight {border-bottom: 4px !important; border-bottom-color:rgb(63, 71, 181) !important; color: #3F51B5}
+/*Messages*/
+.message { width: 80%; margin-bottom: 8px; margin-left: 2.5%} 
+.message h3 { font-size: medium; }
+.message p { background: white; padding: 16px; }
+.message em { font-size: larger; font-style: normal; }
+.message button {background-color: #CDDC39; color: black; text-transform: uppercase; }
+.own {margin-left: 17.5%}
+
+    /* #2 #colorful #channelandchat */
+
+strong {
+    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+    text-transform: uppercase;
+}
+
+h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+ul {list-style-type:none;background-color:white}
+span {width:80%;}
